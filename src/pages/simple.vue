@@ -13,6 +13,7 @@ const objet = {
   price: 4875,
   favoris: true,
   txt: "Beverly Springfield",
+  nbbed: 8,
   nbbath: 5,
   nbsize: "120 m²",
   img: "/public/card.jpg",
