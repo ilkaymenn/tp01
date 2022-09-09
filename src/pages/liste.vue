@@ -42,4 +42,5 @@ const maisons = [
     img: "/public/card4.jpg",
   },
 ];
+// import maisons from "../assets/maisons.json";
 </script>
