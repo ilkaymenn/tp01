@@ -25,7 +25,7 @@ const maison = ref({});
           },
         }"
         v-model="maison"
-        :submit-attrs="{ classes: { input: 'bg-red-300 p-1 rounded' } }"
+        :submit-attrs="{ classes: { input: 'bg-red-400 p-1 rounded' } }"
       >
         <FormKit name="nom" label="nom" />
         <FormKit name="price" label="prix" type="number" />
