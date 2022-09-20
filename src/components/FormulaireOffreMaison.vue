@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "@vue/reactivity";
-import Card from "./card.vue";
+import card from "./card.vue";
 
 // On fait une variable réactive qui réference les données
 // ATTENTION : faire une Ref pas une Reactive car :
@@ -12,7 +12,7 @@ const maison = ref({});
     <div class="p-2">
       <h2 class="text-2xl">Résultat (Prévisualisation)</h2>
       <!-- Optionnel on affiche les données -->
-      <Card v-bind="maison" />
+      <card v-bind="maison" />
     </div>
     <div class="p-2">
       <!-- On passe la "ref" à FormKit -->
