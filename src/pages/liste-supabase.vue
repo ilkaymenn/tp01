@@ -5,10 +5,7 @@ const maisons = []; // à remplacer par l'appel à Supabase
 </script>
 
 <template>
-  <div class="p-2">
-    <h1 class="text-2xl">Page Liste Supabase</h1>
-    <!-- <div v-for="maison in maisons" :key="maison.nom">
-      <card class="w-1/2" v-bind="maison" />
-    </div> -->
+  <div>
+    <h1>Page Liste Supabase</h1>
   </div>
 </template>
