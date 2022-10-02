@@ -15,7 +15,7 @@ const objet = {
 
 <template>
   <div class="p-2">
-    <h1 class="text-2xl">Page Simple</h1>
+    <h1 class="text-2xl font-bold text-blue-500 underline">Page Simple</h1>
     <card class="w-1/2" v-bind="objet" />
   </div>
 </template>

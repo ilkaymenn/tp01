@@ -13,6 +13,7 @@ async function signIn(data, node) {
 const nvlUtilisateur = ref(false);
 </script>
 <template>
+  <h1 class="text-2xl font-bold text-blue-500 underline">Se connecter</h1>
   <div>
     <button v-if="user" @pointerdown="supabase.auth.signOut()">
       Se déconnecter ({{ user.email }})

@@ -4,7 +4,7 @@ import FormulaireOffreMaison from "../../components/FormulaireOffreMaison.vue";
 
 <template>
   <div class="p-2">
-    <h1 class="text-2xl">Formulaire</h1>
+    <h1 class="text-2xl font-bold text-blue-500 underline">Formulaire</h1>
     <FormulaireOffreMaison v-bind="maison" />
   </div>
 </template>

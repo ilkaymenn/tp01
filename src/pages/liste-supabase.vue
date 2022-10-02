@@ -8,6 +8,8 @@ console.log("maison :", maison);
 
 <template>
   <div>
-    <h1>Page Liste Supabase</h1>
+    <h1 class="text-2xl font-bold text-blue-500 underline">
+      Page Liste Supabase
+    </h1>
   </div>
 </template>
